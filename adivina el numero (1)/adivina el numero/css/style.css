@@ -1,0 +1,60 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.letra{
+    font-style: initial;
+    color: rgb(0, 0, 0);
+}
+.letra1 {
+    font-style: helvetica;
+    font: oblique bold 120% ;
+    background-color: rgb(164, 57, 214);
+    border-radius: 30px;
+} 
+.letra2 {
+    font-style: helvetica;
+    font: oblique bold 120% ;
+    
+} 
+.letra3 {
+    font-style: helvetica;
+    color: gold;
+}  
+.letra5 {
+    font-style: helvetica;
+    font: oblique bold 120% ;
+    background-color: rgb(248, 234, 31);
+    border-radius: 50px;
+}     
+.padre {
+    margin-top: 70px;
+    height: 460px;
+    left: 10px;
+    border-radius: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(130, 0, 0);
+    
+}
+
+.hijo {
+    border-style: solid 1px;
+    width: 120px;
+
+}
+.textoañadido{
+    width:60%;
+}
+.center{
+    margin: 10px;
+}
+.intentoanterior{
+    color: indigo;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Adivina el numero</title>
+</head>
+<body background="sources/foto5.jpg" >
+        <b>
+        <h1 class="center letra1 fs-1">Juego del Número Mágico</h1>
+        </b>
+        <div id="reloj" class="letra5 center fs-4 reloj"></div>
+    <div class="padre p-3 mb-2 bg-danger text-white border border-primary rounded-5">  
+        <div class="container hijo ">
+            <p class="center letra fs-3">Bienvenido al juego donde tendrás 10 intentos para encontrar el numero secreto, en un rango de 1 a 1000. ¡Mucha Suerte!</p>
+            <div class="form">
+                <div class="center">
+                <p>
+                <label for="cuadrorespuesta" class="letra3 fs-3 center">Ingresa un número</label><input type="number" onkeyup="onKeyUp(event)" id="cuadrorespuesta" class="cuadrorespuesta letra fs-5">
+                </p>
+                <input type="submit" value="Buscar" class="compruebaboton btn btn-outline-warning letra fs-6">
+            </div>
+            </div>
+            <div id="textoañadido" class="letra fs-4 textoañadido ">
+                <p class="resultado textoañadido"></p>
+                <p class="intentos textoañadido"></p>   
+                <b>       
+                <p class="intentoanterior textoañadido"></p></b>
+               <div class="center letra3 fs-3">
+                <p class=" pista textoañadido"></p>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/js.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script> 
